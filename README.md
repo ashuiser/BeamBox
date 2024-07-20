@@ -11,7 +11,7 @@ To install BeamBox and its dependencies, follow these steps:
 
 1. Clone the repository from GitHub:
 ```bash
-git clone https://github.com/your-username/BeamBox.git
+git clone https://github.com/ashuiser/BeamBox.git
 ```
 3. Navigate into the project directory:
 ```bash
