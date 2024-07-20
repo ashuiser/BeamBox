@@ -1,6 +1,6 @@
 # BeamBox
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/7cf5d707-7319-447d-9e15-c490e050c1aa" alt="Screenshot" height="80">
+  <img src="https://github.com/user-attachments/assets/7cf5d707-7319-447d-9e15-c490e050c1aa" alt="BeamBox_logo" height="80">
 </p>
 
 BeamBox is a full-stack file sharing web application built with HTML, CSS, JavaScript, Express, and socket.io. It allows users to share files with each other in real-time.
