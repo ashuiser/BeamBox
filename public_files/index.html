@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sender</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <img src="logo.svg" alt="logo">
+    </nav>
+    
+    <div class="video-background">
+        <video autoplay muted loop id="myVideo">
+          <source src="background.mp4" type="video/mp4">
+          Your browser does not support HTML5 video.
+        </video>
+        <div class="content">
+            <div class="app">
+                <div class="screen join-screen active">
+                    <div class="form">
+                        <h2>Share your files securely</h2>
+                        <div class="form-input">
+                            <button id="sender-start-con-btn">Create room</button>
+                        </div>
+                        <div class="form-input" id="join-id">
+                            <!-- <b>Room ID</b>
+                            <span>000-000-000</span> -->
+                        </div>
+                    </div>
+                </div>
+                <div class="screen fs-screen">
+                    <div class="file-input">
+                        <label for="file-input">
+                            Click here to select files for sharing
+                        </label>
+                        <input type="file" id="file-input">
+                    </div>
+                    <div class="files-list">
+                        <div class="title">Shared files:</div>
+                        <!-- <div class="item">
+                            <div class="progress">0%</div>
+                            <div class="filename">abc.txt</div>
+                        </div> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+      </div>
+
+
+
+
+
+
+
+
+
+
+
+    <script src="socket.io/socket.io.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
